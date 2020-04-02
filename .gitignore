@@ -145,3 +145,4 @@ static
 # custom
 config/tokens.json
 config/usage.json
+.vscode/settings.json

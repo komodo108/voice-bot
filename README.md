@@ -11,6 +11,9 @@ You should also ensure you create a `config/usage.json` file to hold the usage o
 Currently, this file holds the following keys:
 - `google`: The number of calls to the Google API
 
+We use `pipenv` for package management, ensure this is installed with `pip install pipenv`.
+Update the packages with `pipenv update`, finally run with `pipenv run python source/main.py`.
+
 ### Discord Setup
 To run this bot on a Discord server, the server must have the following roles:
 - `InVoice`: A role indicating whether someone is currently in voice
