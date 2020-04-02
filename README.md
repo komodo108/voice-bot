@@ -1,6 +1,16 @@
 # Quick Bot
 A Quick Discord bot in Python for the [AstroSoc](http://astrosoc.club/) discord
 
+### Features
+- A way to show cool space images from Google
+- Automute people joining a channel
+- Give a role to people in voice
+
+### TODO
+- [ ] Allow users to select to follow movie night notifications
+- [ ] Automate movie night notifications
+- [ ] Simple server moderation, e.g. give people role upon join
+
 ### Cloning
 Ensure you create a `config/tokens.json` file, holding the following keys:
 - `discord`: A Discord Bot Token
@@ -17,6 +27,7 @@ Update the packages with `pipenv update`, finally run with `pipenv run python so
 ### Discord Setup
 To run this bot on a Discord server, the server must have the following roles:
 - `InVoice`: A role indicating whether someone is currently in voice
+- `VC Overwrite`: A role allowing users to overwrite the automute
 - `Crew`: Moderator role
 
 The following voice channels should also be present:
